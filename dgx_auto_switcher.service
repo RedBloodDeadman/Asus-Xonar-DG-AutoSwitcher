@@ -1,0 +1,23 @@
+[Unit]
+Description=DGX autoswitcher
+#Wants=network-online.target
+#After=network.target
+
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/dgx_auto_switcher
+ExecStart=/opt/dgx_auto_switcher/main.py
+#ExecStartPre=/bin/sleep 30
+Restart=on-failure
+#StartLimitBurst=2
+# Restart, but not more than once every 10 minutes
+#StartLimitInterval=600
+# Restart, but not more than once every 30s (for testing purposes)
+#StartLimitInterval=30
+RestartSec=10
+TimeoutStartSec = infinity
+
+[Install]
+WantedBy=multi-user.target
