@@ -6,8 +6,11 @@ Script worked and tested on Manjaro KDE, KDE Neon.
 
 ## Install
 download repository as ZIP and unpack
+
 `sudo mkdir /opt/dgx_auto_switcher`
+
 `sudo cd {path_to}/Asus-Xonar-DG-AutoSwitcher-main`
+
 `sudo cp * /opt/dgx_auto_switcher/`
 
 ## Systemd
