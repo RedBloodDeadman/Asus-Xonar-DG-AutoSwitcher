@@ -11,6 +11,8 @@ download repository as ZIP and unpack
 
 `sudo cd {path_to}/Asus-Xonar-DG-AutoSwitcher-main`
 
+`sudo chmod +x main.py`
+
 `sudo cp * /opt/dgx_auto_switcher/`
 
 ## Systemd
