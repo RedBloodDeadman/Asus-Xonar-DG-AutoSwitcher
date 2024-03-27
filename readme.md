@@ -2,7 +2,7 @@
 
 If jack audio device connected to front panel: automatically switch to `stereo headphones fp`, if device removed, alsamixer changed to `stereo headphones`.
  
-Script worked and tested on Manjaro KDE, KDE Neon.
+Script worked and tested on Manjaro KDE, KDE Neon, Fedora 39.
 
 ## Install
 download repository as ZIP and unpack
